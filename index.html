@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Astronomy Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/hall.js" defer></script>
+</head>
+
+<body>
+    <div id="enter-page">
+        <div class="container-s">
+            <div class="enter-area">
+                <div class="enter-logo">
+                    <img src="images/logo.svg" alt="">
+                    <h1>Astronomy Quiz</h1>
+                </div>
+                <div class="float-box">
+                    <div class="btn-groups">
+                        <button type="submit" class="btn" id="enter-btn">Enter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="hall-page">
+        <div class="container-s">
+            <h1>Questions</h1>
+            <div class="questions-group">
+                <div class="questions-item panel">
+                    <a href="#" class="quiz-link">
+                        <img src="images/questions-item-01.jpg">
+                        <p class="name">Solar System</p>
+                    </a>
+                </div>
+                <div class="questions-item panel">
+                    <a href="#" class="quiz-link">
+                        <img src="images/questions-item-04.jpg">
+                        <p class="name">The Moon</p>
+                    </a>
+                </div>
+            </div>
+            <div class="float-box">
+                <div class="btn-groups">
+                    <button class="btn" id="hall-back-btn">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="quiz-page">
+        <div class="container-s">
+            <div class="content-area">
+                <div class="panel title">
+                    <h2 id="quiz-title">Quiz Title</h2>
+                    <p id="question-counter">— / —</p>
+                </div>
+                <div class="panel q-panel">
+                    <img id="question-image" src="images/questions-item-01.jpg" alt="">
+                    <div>
+                        <h4 id="question-text">Question goes here</h4>
+                    </div>
+                </div>
+                <div id="answer-group" class="answer-group">
+                    <div class="panel answer-item">
+                        <a href="#" class="answer-btn">A</a>
+                    </div>
+                    <div class="panel answer-item">
+                        <a href="#" class="answer-btn">B</a>
+                    </div>
+                    <div class="panel answer-item">
+                        <a href="#" class="answer-btn">C</a>
+                    </div>
+                    <div class="panel answer-item">
+                        <a href="#" class="answer-btn">D</a>
+                    </div>
+                </div>
+            </div>
+            <div class="float-box">
+                <div class="btn-groups">
+                    <button class="btn" id="confirm-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="result-page">
+        <div class="container-s">
+            <div class="content-area">
+                <div class="panel title">
+                    <h2>Result</h2>
+                    <p>Game Over</p>
+                </div>
+                <div class="panel title">
+                    <h2>Score</h2>
+                    <p id="score-display">— / —</p>
+                </div>
+                <div id="answer-review">
+                    <h2 class="sp-1">My Answers</h2>
+                </div>
+            </div>
+            <div class="float-box sp-3">
+                <div class="btn-groups">
+                    <button class="btn" id="play-again-btn">Play Again</button>
+                    <button class="btn" id="back-btn">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Solar System",
+    "questions": [
+      {
+        "question": "How many planets are in the Solar System?",
+        "image": "images/questions-item-01.jpg",
+        "answers": ["6", "7", "8", "9"],
+        "correct": 2
+      },
+      {
+        "question": "Which planet is closest to the Sun?",
+        "image": "images/questions-item-02.jpg",
+        "answers": ["Venus", "Mercury", "Jupiter", "Saturn"],
+        "correct": 1
+      },
+      {
+        "question": "What is the largest planet?",
+        "image": "images/questions-item-03.jpg",
+        "answers": ["Jupiter", "Earth", "Uranus", "Neptune"],
+        "correct": 0
+      }
+    ]
+  },
+  {
+    "title": "The Moon",
+    "questions": [
+      {
+        "question": "How many days does the Moon take to orbit Earth?",
+        "image": "images/questions-item-04.jpg",
+        "answers": ["7 days", "14 days", "27 days", "365 days"],
+        "correct": 2
+      },
+      {
+        "question": "What is the Moon mostly made of?",
+        "image": "images/questions-item-05.jpg",
+        "answers": ["Gas", "Rock", "Ice", "Metal"],
+        "correct": 1
+      },
+      {
+        "question": "In what year did humans first land on the Moon?",
+        "image": "images/questions-item-06.jpg",
+        "answers": ["1939", "1949", "1959", "1969"],
+        "correct": 3
+      }
+    ]
+  }
+]
